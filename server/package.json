@@ -1,0 +1,34 @@
+{
+  "name": "sociobirds",
+  "version": "1.0.0",
+  "description": "A social media website to interact with your besties. Post, like, share, comment, follow, unfollow and chat with them. It has everything that you wish for. So, why should you wait. Give it a try too. :)",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "social",
+    "media",
+    "app",
+    "MERN",
+    "stack",
+    "CRUD",
+    "application"
+  ],
+  "author": "Bhumika Sethi",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "helmet": "^6.0.1",
+    "mongodb": "^4.13.0",
+    "mongoose": "^6.8.4",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.20",
+    "path": "^0.12.7",
+    "routes": "^2.1.0"
+  }
+}
